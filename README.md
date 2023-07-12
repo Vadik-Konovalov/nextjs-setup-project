@@ -1,1 +1,1 @@
-```setup project```
+```template project```
