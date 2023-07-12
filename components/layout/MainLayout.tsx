@@ -1,10 +1,16 @@
-import { FC } from 'react';
+import { FC, ReactNode } from 'react';
 
 import Head from 'next/head';
+import styled from 'styled-components';
+import { Header } from '../Header';
 
-import { IMainLayout } from './types';
-import { Main } from './MainLayoutStyled';
-import { Container } from '@/styles/global';
+interface IMainLayout {
+  title: string;
+  desc: string;
+  children: ReactNode;
+}
+
+const Main = styled.main``;
 
 export const MainLayout: FC<IMainLayout> = ({ title, desc, children }) => {
   return (
@@ -15,9 +21,8 @@ export const MainLayout: FC<IMainLayout> = ({ title, desc, children }) => {
         <meta name="description" content={desc} />
         <meta name="keywords" content="content" />
       </Head>
-      <Main>
-        <Container>{children}</Container>
-      </Main>
+      <Header />
+      <Main>{children}</Main>
     </>
   );
 };

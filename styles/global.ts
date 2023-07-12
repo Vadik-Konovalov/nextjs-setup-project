@@ -6,28 +6,6 @@ const montserrat = Montserrat({
   subsets: ['cyrillic', 'cyrillic-ext', 'latin'],
 });
 
-export const theme = {
-  colors: {
-    primary: '#6B0DE3',
-    secondary: '#827A8B',
-    outlined: '#7F52FF',
-    black: '#000000',
-    white: '#ffffff',
-  },
-
-  fonts: {
-    primary: 'var(--montserrat-font), sans-serif',
-  },
-
-  responsive: {
-    mobile: '@media (min-width: 320px)',
-    tablet: '@media (min-width: 768px)',
-    laptop: '@media (min-width: 1024px)',
-    desktop: '@media (min-width: 1201px)',
-    extra: '@media (min-width: 1601px)',
-  },
-};
-
 export const Container = styled.div`
   width: 90%;
   margin: 0 auto;
