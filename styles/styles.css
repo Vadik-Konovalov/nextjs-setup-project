@@ -1,0 +1,47 @@
+:root {
+  /* color */
+  --primary-text-color: #212121;
+  --text-color-logo: #000000;
+  --title-text-color: #757575;
+  --secondary-title-text-color: #afb1b8;
+  --accent-color: #2196f3;
+  --section-background-colour: #2f303a;
+  --main-page-color: #ffcc26;
+  --secondary-backgraund-color: #f5f4fa;
+  --hero_btn-backgraund-color: #188ce8;
+  /* others */
+  --items: 3;
+  --indent: 30px;
+  /* transform */
+  --timing-transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --timing-text-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --timing-backgraund-color: backgraund-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header {
+  background: var(--main-page-color);
+  border: 1px solid #ececec;
+}
+
+.header-container {
+  width: 1920px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.header-logo {
+  color: #414141;
+  font-family: Anek Telugu;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  width: 311px;
+  height: 31px;
+  top: 34px;
+  left: 1519px;
+  flex-shrink: 0;
+  margin-left: 91;
+}
