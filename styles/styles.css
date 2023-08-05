@@ -20,28 +20,44 @@
 
 .header {
   background: var(--main-page-color);
-  border: 1px solid #ececec;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  display: flex;
 }
 
 .header-container {
-  width: 1920px;
-  height: 100px;
-  flex-shrink: 0;
+  display: flex;
+  justify-content: left;
 }
 
 .header-logo {
   color: #414141;
   font-family: Anek Telugu;
   font-size: 32px;
-  font-style: normal;
   font-weight: 600;
   line-height: 48px;
-  letter-spacing: 1.6px;
-  text-transform: uppercase;
-  width: 311px;
-  height: 31px;
-  top: 34px;
-  left: 1519px;
-  flex-shrink: 0;
-  margin-left: 91;
+  letter-spacing: 0.05em;
+  display: flex;
+  padding-left: 1350px;
+}
+
+.card-set__icon {
+  width: 1048px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 600px;
+}
+
+.tovar {
+  width: 232px;
+  height: 232px;
+}
+
+.gus-title {
+  display: flex;
+}
+
+.product {
+  padding-top: 30px;
 }
