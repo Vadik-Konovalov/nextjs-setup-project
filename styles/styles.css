@@ -60,4 +60,7 @@
 
 .product {
   padding-top: 30px;
+  border-width: 3px 3px 3px 3px;
+  border-style: dashed dashed dashed dashed;
+  border-color: #414141 #414141 #414141 #414141;
 }
