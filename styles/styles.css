@@ -4,7 +4,7 @@
   --text-color-logo: #000000;
   --title-text-color: #757575;
   --secondary-title-text-color: #afb1b8;
-  --accent-color: #2196f3;
+  --accent-color: #fff;
   --section-background-colour: #2f303a;
   --main-page-color: #ffcc26;
   --secondary-backgraund-color: #f5f4fa;
@@ -39,14 +39,53 @@
   line-height: 48px;
   letter-spacing: 0.05em;
   display: flex;
-  padding-left: 1350px;
+  padding-left: 1250px;
+}
+
+.wrapper {
+  display: block;
+}
+
+.favorites {
+  width: 500px;
+  float: left;
+  display: inline-block;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 45px;
+  border-width: 3px 3px 3px 3px;
+  border-style: dashed dashed dashed dashed;
+  border-color: #414141 #414141 #414141 #414141;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.favorite-food {
+  padding: 20px 30px 300px 30px;
+}
+
+.favorite-product {
+  width: 347px;
+  margin: 20px 30px 30px 30px;
+  background-color: #fbfbfb;
 }
 
 .card-set__icon {
-  width: 1048px;
   display: flex;
   justify-content: space-between;
-  padding-left: 600px;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.product {
+  display: inline-block;
+  float: right;
+  padding-top: 30px;
+  border-width: 3px 3px 3px 3px;
+  border-style: dashed dashed dashed dashed;
+  border-color: #414141 #414141 #414141 #414141;
+  border-radius: 20px;
 }
 
 .tovar {
@@ -58,9 +97,43 @@
   display: flex;
 }
 
-.product {
-  padding-top: 30px;
-  border-width: 3px 3px 3px 3px;
-  border-style: dashed dashed dashed dashed;
-  border-color: #414141 #414141 #414141 #414141;
+.gus-fact-title {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.gus-fact-descr {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: left;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.modal-form-btn {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  margin-top: 0px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  padding-left: 29px;
+  margin: 0;
+
+  background: var(--accent-color);
+  color: var(--main-page-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  border: transparent;
+  border-radius: 3px;
 }
